@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+</head>
+<body>
+    <script>
+        var english = ['hello', 'yesterday', 'goodbye', 'England', 'pretty', 'you'];
+        var vietnamese = ['xin chào', 'ngày hôm qua', 'tạm biệt', 'nước anh', 'xinh', 'bạn'];
+        var word_input = prompt('Enter a word').toString();
+        for (var i = 0; i < english.length; i++){
+            if (word_input === english[i]){
+                alert(vietnamese[i]);
+            }else alert('Hãy hỏi Phương đẹp trai')
+        }
+    </script>
+</body>
+</html>
